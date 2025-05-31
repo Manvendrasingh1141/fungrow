@@ -3,21 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <!-- SEO Meta Tags -->
-<meta name="description" content="TeenTalent connects skilled teens with companies for real-world freelance projects. Hire or work with young digital creators.">
-<meta name="keywords" content="hire teens, teen freelancers, internships for teens, teen jobs, teenlancer, TeenTalent">
-<meta name="author" content="TeenTalent">
+  <meta name="description" content="TeenTalent connects skilled teen freelancers with businesses. Hire teenlancers for website design, marketing, app development and more.">
+  <meta name="keywords" content="hire teens, teen freelancers, teenlancers, internships for teens, teen jobs, student talent, freelance teens">
+  <meta name="author" content="TeenTalent">
 
-<!-- Open Graph Meta Tags -->
-<meta property="og:title" content="TeenTalent – Hire Skilled Teenlancers">
-<meta property="og:description" content="Explore India’s top student talent for your business.">
-<meta property="og:image" content="https://yourdomain.com/og-image.jpg">
-<meta property="og:url" content="https://yourdomain.com/">
-<meta property="og:type" content="website">
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="TeenTalent – Hire Teen Freelancers Across India">
+  <meta property="og:description" content="Hire skilled teenlancers for design, development, marketing & more. Connect with India’s top student talent.">
+  <meta property="og:image" content="https://yourdomain.com/assets/og-image.jpg">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta property="og:type" content="website">
 
-  <title>SmartWork - Empowering Teen Talent</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Title -->
+  <title>Hire Teen Freelancers for Design, Marketing & Tech | TeenTalent</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- TailwindCSS -->
+  <script defer src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- Social Sharing API (Optional AddThis) -->
+  <script async src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63xxxxx"></script>
+
   <style>
     body {
       font-family: 'Poppins', sans-serif;
@@ -27,61 +50,51 @@
 <body class="bg-[#0D1B2A] text-white">
   <!-- Header -->
   <header class="flex justify-between items-center p-4 bg-[#27E39C] text-[#0D1B2A] font-bold">
-    <div class="text-xl">SmartWork</div>
+    <div class="text-xl">TeenTalent</div>
     <nav class="space-x-6">
-      <a href="#" class="hover:underline">Home</a>
-      <a href="#" class="hover:underline">Company</a>
-      <a href="#" class="hover:underline">Join Us</a>
+      <a href="/home" class="hover:underline">Home</a>
+      <a href="/company" class="hover:underline">Company</a>
+      <a href="/join-us" class="hover:underline">Join Us</a>
     </nav>
     <div>
-      <button class="bg-[#0D1B2A] text-[#27E39C] px-4 py-1 rounded-full hover:opacity-90">Login</button>
+      <a href="/login" class="bg-[#0D1B2A] text-[#27E39C] px-4 py-1 rounded-full hover:opacity-90">Login</a>
     </div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section class="text-center py-16 px-6">
-    <h1 class="text-4xl sm:text-5xl font-bold mb-4">Smart Talent for Smart Companies</h1>
-    <p class="text-lg text-gray-300 max-w-xl mx-auto mb-6">Get efficient, timely delivery, and innovative ideas while you build your brand. Talented Teens ready to work with you.</p>
-    <button class="bg-[#27E39C] text-[#0D1B2A] px-6 py-3 rounded-full font-semibold hover:opacity-90">Hire Talent Now</button>
+    <h1 class="text-5xl font-bold mb-4">Hire Teen Freelancers for Smarter Work</h1>
+    <p class="text-lg text-gray-300 max-w-xl mx-auto mb-6">
+      Get efficient, timely delivery, and creative ideas from top student talent. Join 4,000+ companies using TeenTalent.
+    </p>
+    <a href="/hire-talent" class="bg-[#27E39C] text-[#0D1B2A] px-6 py-3 rounded-full font-semibold hover:opacity-90">Hire Talent Now</a>
   </section>
 
-  <!-- Stats Section -->
-  <section class="flex justify-center gap-6 text-center bg-[#12263A] py-10">
-    <div>
-      <h2 class="text-2xl font-bold text-[#27E39C]">4,000+</h2>
-      <p class="text-gray-400">Companies</p>
-    </div>
-    <div>
-      <h2 class="text-2xl font-bold text-[#35C4F0]">18</h2>
-      <p class="text-gray-400">Categories</p>
-    </div>
-    <div>
-      <h2 class="text-2xl font-bold text-[#27E39C]">40,00,000+</h2>
-      <p class="text-gray-400">Teenancers</p>
-    </div>
-    <div>
-      <h2 class="text-2xl font-bold text-[#35C4F0]">1,000+</h2>
-      <p class="text-gray-400">Live Projects</p>
-    </div>
+  <!-- Stats -->
+  <section class="grid grid-cols-2 sm:grid-cols-4 text-center bg-[#12263A] py-10 gap-4">
+    <div><h2 class="text-2xl font-bold text-[#27E39C]">4,000+</h2><p class="text-gray-400">Companies</p></div>
+    <div><h2 class="text-2xl font-bold text-[#35C4F0]">18</h2><p class="text-gray-400">Categories</p></div>
+    <div><h2 class="text-2xl font-bold text-[#27E39C]">40,00,000+</h2><p class="text-gray-400">Teenancers</p></div>
+    <div><h2 class="text-2xl font-bold text-[#35C4F0]">1,000+</h2><p class="text-gray-400">Live Projects</p></div>
   </section>
 
   <!-- Project Ideas -->
   <section class="py-16 px-6 text-center">
-    <h2 class="text-3xl font-bold mb-8">Project Ideas</h2>
+    <h2 class="text-3xl font-bold mb-8">Top Project Ideas</h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
       <div class="border border-[#27E39C] rounded-lg p-4 bg-[#12263A]">
-        <h3 class="text-xl font-semibold mb-2">Build your brand</h3>
-        <p class="text-gray-300 mb-4">Design logos, brochures, and social posts.</p>
+        <h3 class="text-xl font-semibold mb-2">Build Your Brand</h3>
+        <p class="text-gray-300 mb-4">Design logos, brochures & social media creatives.</p>
         <span class="text-[#35C4F0] font-bold">₹500+</span>
       </div>
       <div class="border border-[#35C4F0] rounded-lg p-4 bg-[#12263A]">
-        <h3 class="text-xl font-semibold mb-2">Create your website</h3>
-        <p class="text-gray-300 mb-4">Get a sleek site to showcase your work.</p>
+        <h3 class="text-xl font-semibold mb-2">Create a Website</h3>
+        <p class="text-gray-300 mb-4">Showcase your business with a modern website.</p>
         <span class="text-[#27E39C] font-bold">₹1500+</span>
       </div>
       <div class="border border-[#27E39C] rounded-lg p-4 bg-[#12263A]">
-        <h3 class="text-xl font-semibold mb-2">Reach new customers</h3>
-        <p class="text-gray-300 mb-4">Social media marketing made simple.</p>
+        <h3 class="text-xl font-semibold mb-2">Grow Your Audience</h3>
+        <p class="text-gray-300 mb-4">Affordable social media marketing campaigns.</p>
         <span class="text-[#35C4F0] font-bold">₹600+</span>
       </div>
     </div>
@@ -89,26 +102,26 @@
 
   <!-- Testimonials -->
   <section class="bg-[#12263A] py-16 px-6">
-    <h2 class="text-3xl text-center font-bold mb-8">Happy Members</h2>
-    <div class="flex flex-col sm:flex-row justify-center gap-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl text-center font-bold mb-8">What Clients Say</h2>
+    <div class="grid sm:grid-cols-3 gap-6 max-w-6xl mx-auto">
       <div class="bg-[#0D1B2A] border border-[#27E39C] rounded-lg p-6">
         <h4 class="font-bold text-lg mb-2">Devansh Ghosh</h4>
-        <p class="text-gray-300">"Working with SmartWork teens was fantastic! Fresh perspectives and creative execution."</p>
+        <p class="text-gray-300">"Fresh ideas, fast delivery. SmartWork teens are brilliant!"</p>
       </div>
       <div class="bg-[#0D1B2A] border border-[#35C4F0] rounded-lg p-6">
         <h4 class="font-bold text-lg mb-2">Ritika Kumari</h4>
-        <p class="text-gray-300">"They delivered our mobile app design exactly how we envisioned — quick, clean, and innovative."</p>
+        <p class="text-gray-300">"App UI was better than expected. Neat & professional work."</p>
       </div>
       <div class="bg-[#0D1B2A] border border-[#27E39C] rounded-lg p-6">
         <h4 class="font-bold text-lg mb-2">Vansh</h4>
-        <p class="text-gray-300">"Teen talents did wonders with our website redesign. Highly recommended!"</p>
+        <p class="text-gray-300">"They rebranded our website amazingly. Highly recommended!"</p>
       </div>
     </div>
   </section>
 
   <!-- Categories -->
   <section class="py-16 px-6 text-center">
-    <h2 class="text-3xl font-bold mb-6">Explore Categories</h2>
+    <h2 class="text-3xl font-bold mb-6">Popular Service Categories</h2>
     <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 max-w-4xl mx-auto">
       <div class="p-4 bg-[#12263A] rounded-lg border border-[#27E39C]">Social Media</div>
       <div class="p-4 bg-[#12263A] rounded-lg border border-[#35C4F0]">Video Editing</div>
@@ -120,7 +133,7 @@
 
   <!-- Footer -->
   <footer class="bg-[#27E39C] text-[#0D1B2A] text-center p-4 font-semibold">
-    &copy; 2025 SmartWork. All rights reserved.
+    &copy; 2025 TeenTalent. All rights reserved. <a href="/sitemap.xml" class="underline">Sitemap</a>
   </footer>
 </body>
 </html>
